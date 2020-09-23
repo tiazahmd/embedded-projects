@@ -4,11 +4,8 @@ The system will have two inputs and three outputs. The inputs are switches calle
 | Switch Input                                 | LED Output                     |
 |----------------------------------------------|--------------------------------|
 | Both switches SW1 and SW2 are pressed        | The LED should be blue         |
-|----------------------------------------------|--------------------------------|
 | Just SW1 switch is pressed                   | The LED should be red          |
-|----------------------------------------------|--------------------------------|
 | Just SW2 switch is pressed                   | The LED should be green        |
-|----------------------------------------------|--------------------------------|
 | Neither SW1 nor SW2 is pressed               | The LED should be off          |
 
 ### Implementation Details
