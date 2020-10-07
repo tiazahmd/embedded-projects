@@ -23,13 +23,13 @@ Note:
 Output voltage of GPIO ports for this microcntroller is 3.3V. 
 The LED's capacity is up to 2V. 
 These LEDs can take up to 20mA of current. 
-Therefore, accoding to Ohm's law, the resistor we should be using is:
+Therefore, according to Ohm's law, the resistor we should be using is:
 R = V / I
   = 2 / 0.020
-  = 100Ω
+  = 100 Ω
 ```
 
 ### Output
-The following Video shows the output and how the LEDs light up based on certain inputs:
+The following video shows the output and how the LEDs light up based on certain inputs:
 
-[LAB 2-4 implementations](https://i.imgur.com/BGfj16N.mp4)
+[LAB 1_2_4 implementations](https://i.imgur.com/BGfj16N.mp4)
