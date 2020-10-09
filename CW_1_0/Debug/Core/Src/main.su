@@ -1,0 +1,8 @@
+main.c:19:5:main	8	static
+main.c:33:6:InitGPIO	56	static
+main.c:54:6:StartSOS	8	static
+main.c:67:6:BlinkShort	16	static
+main.c:77:6:BlinkLong	16	static
+main.c:91:6:SystemClock_Config	88	static
+main.c:136:13:MX_GPIO_Init	56	static
+main.c:287:6:Error_Handler	4	static
