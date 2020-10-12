@@ -1,0 +1,10 @@
+main.c:22:5:main	56	static
+main.c:49:6:SetReady	8	static
+main.c:54:6:ClearReady	8	static
+main.c:59:6:WaitForASLow	8	static
+main.c:68:6:WaitForASHigh	8	static
+main.c:79:6:SetVT	8	static
+main.c:84:6:ClearVT	8	static
+main.c:94:6:SystemClock_Config	88	static
+main.c:139:13:MX_GPIO_Init	56	static
+main.c:290:6:Error_Handler	4	static
