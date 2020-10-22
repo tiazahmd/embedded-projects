@@ -24,10 +24,10 @@ int main(void)
     printf("     Finite State Machine Tests     ");
     printf("\n------------------------------------\n");
 
-    uint32_t test_data_0 = 0b001011000010;
+    uint32_t test_data_0 = 0b1001011000010;
     uint32_t test_data_1 = 0b10110011000;
-    uint32_t test_data_2 = 0b0101001001010001001;
-    uint32_t test_data_3 = 0b10100;
+    uint32_t test_data_2 = 0b10101001001010001001;
+    uint32_t test_data_3 = 0b101001;
     uint32_t test_data_4 = 0b101111101;
 
     OddsDetector(test_data_0);
@@ -84,6 +84,7 @@ void PrintOutput(void)
     }
     printf("\n------------------------------------\n");
     printf("Test no: %d\n", test_count);
+    printf("Number of bits %d\n", FSM.total_bits);
     printf("The previous state was: %s\n", prev_state);
     printf("The current state is %s\n", curr_state);
     printf("The output is: %d\n", FSM.result_output);
