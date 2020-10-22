@@ -25,4 +25,4 @@ Below is the detailed list and brief description of projects implemented (the re
 
 ### Course Works
 Course works are various in-class works that the course have to teach critical concepts. For example, in order to teach how USART works, the course may introduce a project that they work on from beginning to end in order to demonstrate how each component work. I'm following along those course works as well and porting them to STM32. Below is the list of course works that the course go through and I implemented(the rest of the list will be updated as I make progress):
-1. **CW_1_0:** Implement an SOS system that starts flashing the LED on a SOS pattern once a button is pressed and whenever the another button is pressed, it stops flashing. *(Complete)*
+1. **CW_1_7_1:** Implement an SOS system that starts flashing the LED on a SOS pattern once a button is pressed and whenever the another button is pressed, it stops flashing. *(Complete)*
