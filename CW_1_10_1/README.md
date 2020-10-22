@@ -21,20 +21,23 @@ $ ./main
 
 ------------------------------------
 Test no: 1
-The previous state was: EVEN
-The current state is EVEN
-The output is: 0
-------------------------------------
-
-------------------------------------
-Test no: 2
+Number of bits 13
 The previous state was: EVEN
 The current state is ODD
 The output is: 1
 ------------------------------------
 
 ------------------------------------
+Test no: 2
+Number of bits 11
+The previous state was: ODD
+The current state is ODD
+The output is: 1
+------------------------------------
+
+------------------------------------
 Test no: 3
+Number of bits 20
 The previous state was: ODD
 The current state is EVEN
 The output is: 0
@@ -42,14 +45,16 @@ The output is: 0
 
 ------------------------------------
 Test no: 4
+Number of bits 6
 The previous state was: EVEN
-The current state is ODD
-The output is: 1
+The current state is EVEN
+The output is: 0
 ------------------------------------
 
 ------------------------------------
 Test no: 5
-The previous state was: ODD
+Number of bits 9
+The previous state was: EVEN
 The current state is ODD
 The output is: 1
 ------------------------------------
