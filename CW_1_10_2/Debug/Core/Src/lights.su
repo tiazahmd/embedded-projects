@@ -1,0 +1,6 @@
+lights.c:10:6:goN	8	static
+lights.c:22:6:waitN	8	static
+lights.c:31:6:goE	8	static
+lights.c:43:6:waitE	8	static
+lights.c:51:6:redToGreen	16	static
+lights.c:66:6:greenToRed	16	static
