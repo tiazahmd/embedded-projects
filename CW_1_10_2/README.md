@@ -1,7 +1,7 @@
 ### Project Specification
 Design a traffic light controller for the intersection of two equally busy one-way streets. The goal is to maximize traffic flow, minimize waiting time at a red light, and avoid accidents. Below is a screenshot of what we're trying to achieve:
 
-![PCStatus Screenshot](https://raw.githubusercontent.com/tiazahmd/embedded-projects/master/Fg06_11_TrafficLight.jpg)
+![Traffic Light](https://raw.githubusercontent.com/tiazahmd/embedded-projects/master/CW_1_10_2/Fg06_11_TrafficLight.jpg)
 
 ### Solution
 Since I didn't have a motion sensor at the time of this project, I used two buttons to mimic the behavior of a motion sensor. If button 1 or 2 is pressed, it meant either North or East sensor has been triggered. There are 6 key functions that are key to solving this problem and uses an Finite State Machine (FSM) called `TrafficFSM`. They are:
